@@ -13,8 +13,10 @@ const ProductCard = ({ product }) => {
         <div className="product-details">
             <p className="product-category">{category}</p>
             <h2 className="product-title">{title}</h2>
-            <p className="product-price">${price.toFixed(2)}</p>
-            <button className="add-to-cart-button">Добавить в корзину</button>
+            <div className="product-card-add-to-card-container">
+              <p className="product-price">${price.toFixed(2)}</p>
+              <button className="add-to-cart-button">Add to cart</button>
+            </div>
         </div>
     </div>
   );

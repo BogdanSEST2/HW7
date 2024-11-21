@@ -57,12 +57,19 @@
     color: white;
     border: none;
     padding: 10px;
-    width: 100%;
     cursor: pointer;
     border-radius: 4px;
     margin-top: 10px;
+    transition-duration: .3s;
 }
 
 .add-to-cart-button:hover {
     background-color: #0056b3;
+}
+
+.product-card-add-to-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
 }
