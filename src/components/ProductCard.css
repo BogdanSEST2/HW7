@@ -1,15 +1,13 @@
 .product-card {
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 18px;
     overflow: hidden;
-    width: 300px;
-    margin: 16px;
+    flex: 1 1 250px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition-duration: .3s;
-    padding: 20px;
 }
 .product-card:hover {
     border: 1px solid blue;
@@ -18,6 +16,7 @@
     position: relative;
     padding-bottom: 60%;
     width: 100%;
+    margin-top: 10px;
 }
 .product-image {
     position: absolute;
@@ -39,6 +38,8 @@
 .product-category {
     color: #888;
     font-size: 14px;
+    text-transform: capitalize;
+    color:#007bff;
 }
 
 .product-title {
