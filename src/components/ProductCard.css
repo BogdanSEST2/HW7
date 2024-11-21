@@ -44,7 +44,7 @@
 
 .product-title {
     font-size: 18px;
-    margin: 8px 0;
+    margin-bottom: 10;
     text-align: left;
 }
 
@@ -60,7 +60,6 @@
     padding: 10px;
     cursor: pointer;
     border-radius: 4px;
-    margin-top: 10px;
     transition-duration: .3s;
 }
 
